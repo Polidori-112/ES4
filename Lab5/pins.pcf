@@ -1,0 +1,21 @@
+set_io -nowarn seg1[6] 6
+set_io -nowarn seg1[5] 9
+set_io -nowarn seg1[4] 11
+set_io -nowarn seg1[3] 18
+set_io -nowarn seg1[2] 19
+set_io -nowarn seg1[1] 13
+set_io -nowarn seg1[0] 21
+set_io -nowarn -pullup 1 a1[3] 48
+set_io -nowarn -pullup 1 a1[2] 3
+set_io -nowarn -pullup 1 a1[1] 4
+set_io -nowarn -pullup 1 a1[0] 44
+set_io -nowarn -pullup 1 b1[3] 2
+set_io -nowarn -pullup 1 b1[2] 46
+set_io -nowarn -pullup 1 b1[1] 47
+set_io -nowarn -pullup 1 b1[0] 45
+set_io -nowarn -pullup 1 x1[1] 12
+set_io -nowarn -pullup 1 x1[0] 10
+set_io -nowarn S[3] 28
+set_io -nowarn S[2] 38
+set_io -nowarn S[1] 42
+set_io -nowarn S[0] 36

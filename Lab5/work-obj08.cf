@@ -1,0 +1,10 @@
+v 4
+file . "top.vhdl" "cb39ba3c8eb419f769d98f2a9b01ef2d41051a0c" "20211030163555.617":
+  entity top at 1( 0) + 0 on 15;
+  architecture synth of top at 18( 293) + 0 on 16;
+file . "sevenseg.vhdl" "34925d8d99b421b7668da86818761359d19c759a" "20211030163555.615":
+  entity sevenseg at 1( 0) + 0 on 13;
+  architecture synth of sevenseg at 12( 196) + 0 on 14;
+file . "alu.vhdl" "cf33183ababaccdddc1631d14500744bcf42b136" "20211030163555.612":
+  entity alu at 1( 0) + 0 on 11;
+  architecture synth of alu at 14( 243) + 0 on 12;
