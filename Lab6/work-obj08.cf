@@ -1,10 +1,13 @@
 v 4
-file . "top.vhdl" "42cad80cc29954c6285c916f50b7239126c398d0" "20211102171607.005":
-  entity top at 1( 0) + 0 on 15;
-  architecture synth of top at 19( 371) + 0 on 16;
-file . "sevenseg.vhdl" "34925d8d99b421b7668da86818761359d19c759a" "20211102171607.004":
-  entity sevenseg at 1( 0) + 0 on 13;
-  architecture synth of sevenseg at 12( 196) + 0 on 14;
-file . "dddd.vhdl" "0ad0ab1d52e975b6c74e16e39c38c414892496c0" "20211102171607.003":
-  entity dddd at 1( 0) + 0 on 11;
-  architecture synth of dddd at 15( 237) + 0 on 12;
+file . "top.vhdl" "42cad80cc29954c6285c916f50b7239126c398d0" "20211106184153.842":
+  entity top at 1( 0) + 0 on 17;
+  architecture synth of top at 19( 371) + 0 on 18;
+file . "sevenseg.vhdl" "34925d8d99b421b7668da86818761359d19c759a" "20211106184153.841":
+  entity sevenseg at 1( 0) + 0 on 15;
+  architecture synth of sevenseg at 12( 196) + 0 on 16;
+file . "dddd.vhdl" "0ad0ab1d52e975b6c74e16e39c38c414892496c0" "20211106184153.839":
+  entity dddd at 1( 0) + 0 on 13;
+  architecture synth of dddd at 15( 237) + 0 on 14;
+file . "counter.vhdl" "bd2b3bf1a6c21160cca9cc34d48a2d6c8b963f97" "20211106184153.838":
+  entity counter at 1( 0) + 0 on 11;
+  architecture synth of counter at 13( 160) + 0 on 12;
