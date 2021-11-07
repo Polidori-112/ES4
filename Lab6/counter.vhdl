@@ -29,16 +29,14 @@ signal clk : std_logic;
 begin
 
 
-osc: SB_HFOSC
-    generic map(CLKHF_DIV => "0b00")
-    port map(CLKHFPU => '1', CLKHFEN => '1', CLKHF => clk);
+clock: SB_HFOSC port map(CLKHFPU => '1', CLKHFEN => '1', CLKHF => clk);
 
 
 process (clk) begin
   if rising_edge(clk) then
     counter <= counter + 1;
-    pin(1) <= counter(18);
-    pin(0) <= not counter(18);
+    pin(1) <= counter(25);
+    pin(0) <= not counter(25);
   end if;
 end process;
 

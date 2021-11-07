@@ -4,9 +4,6 @@ use IEEE.numeric_std.all;
 
 entity top is
   port(
-	  a1 : in unsigned(3 downto 0);
-	  b1 : in unsigned(3 downto 0);
-	  x1 : in std_logic_vector(1 downto 0);
     S : in unsigned(3 downto 0);
     inp : in unsigned(5 downto 0);
 	  seg1 : out std_logic_vector(6 downto 0);
@@ -54,9 +51,7 @@ begin
 
 ddd : dddd port map (count => inp, tens => outie, ones  => outie1);
 
-osc: SB_HFOSC
-    generic map(CLKHF_DIV => "0b00")
-    port map(CLKHFPU => '1', CLKHFEN => '1', CLKHF => clk);
+clock: SB_HFOSC port map(CLKHFPU => '1', CLKHFEN => '1', CLKHF => clk);
 
 
 process (clk) begin
